@@ -5,6 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px;
+    }
+    .profile{
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 475px;
+    }
+    .profile img{
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    
+    }
+    .header{
+      color: white;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .name{
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+    }
+    .location{
+        color: greenyellow;
+        text-align: center;
+    }
+    .field{
+        font-size: 15px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+    }
+    .links button{
+        background-color: #3a3a3a;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        width: 300px;
+        height: 40px;
+        margin: 2px;
+    }
+    .links button:hover{
+       background-color: darkolivegreen;
+    }
+    </style>
 </head>
 <body>
     <div class="profile">
@@ -15,11 +80,11 @@
         <p class="field">"frontend developer and acid maker"</p>
     </div>
     <div class="links">
-        <button>github</button>
-        <button>front material</button>
-        <button>linkden</button>
-        <button>Tiktok</button>
-        <button>Instagram</button>
+        <a href="https://github.com/Keneriya"><button>github</button></a>
+        <a href="https://www.w3schools.com/"><button>front material</button></a>
+        <a href="https://www.linkedin.com/"><button>linkden</button></a>
+        <a href="https://www.instagram.com/"><button>Tiktok</button></a>
+        <a href="https://www.instagram.com/"><button>Instagram</button></a>
     </div>
 </div>
 </body>
